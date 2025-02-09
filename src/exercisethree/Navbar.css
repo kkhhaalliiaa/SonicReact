@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background: rgba(0, 0, 128, 0.497);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    margin-right: 50px;
+}
+
+.navbar-logo img {
+    width: 160px;
+    height: 160px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar-link, .dropdown-toggle {
+    font-family:  'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 28px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-link:hover, .dropdown-toggle:hover {
+    background: radial-gradient(circle, #FFD700 20%, #FFA500 80%);
+    color: white;
+
+}
+
+.navbar-link.active , .dropdown-link.active {
+    background: radial-gradient(circle, #FFD700 30%, #FFA500 70%);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 128, 0.9);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-link {
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.dropdown-link:hover {
+    background: radial-gradient(circle, #FFD700 30%, #FFA500 70%);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+
+    .navbar-logo img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .navbar-link, .dropdown-toggle {
+        font-size: 18px;
+        padding: 14px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 25px 30px;
+    }
+
+    .navbar-logo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .navbar-link, .dropdown-toggle {
+        font-size: 16px;
+        padding: 12px;
+    }
+}

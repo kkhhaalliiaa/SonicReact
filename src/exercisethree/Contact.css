@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* General Page Styling */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contact Container */
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 128, 0.85); /* Deep blue background */
+    box-shadow: 0px 4px 15px rgba(255, 255, 0, 0.6); /* Yellow glow */
+    border: 3px solid yellow;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 5px #ffb400; /* Yellow glow */
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Contact Details */
+.contact-details {
+    background: rgba(0, 0, 255, 0.7); /* Blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8); /* Yellow glow */
+}
+
+.contact-details p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD700; /* Gold text */
+    margin: 10px 0;
+}

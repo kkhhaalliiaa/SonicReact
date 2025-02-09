@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* General Page Styling */
+body {
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Game Container */
+.game {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 128, 0.85);
+    box-shadow: 0px 4px 15px rgba(255, 255, 0, 0.6);
+    border: 3px solid yellow;
+}
+
+/* Game Title */
+h1 {
+    font-size: 28px;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px #ffb400;
+    margin-bottom: 20px;
+}
+
+/* Status Text */
+.status {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Board Grid */
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Tic-Tac-Toe Squares */
+.square {
+    font-family: 'Press Start 2P', cursive;
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background: radial-gradient(circle, #FFD700 30%, #FFA500 70%);
+    color: #000080;
+    border: 3px solid yellow;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    margin: 5px;
+}
+
+.square:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px yellow;
+}
+
+/* Move List */
+.game-info ol {
+    list-style: none;
+    padding: 0;
+}
+
+.game-info button {
+    background: radial-gradient(circle, #FFD700 30%, #FFA500 70%);
+    color: #000080;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    padding: 8px 20px;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+    margin-top: 10px;
+}
+
+.game-info button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px yellow;
+}

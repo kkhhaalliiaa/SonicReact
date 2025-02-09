@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+/* General Page Styling */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quote Container */
+.quote-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 128, 0.85); 
+    box-shadow: 0px 4px 15px rgba(255, 255, 0, 0.6); 
+    border: 3px solid yellow; 
+}
+
+/* Quote Title */
+.quote-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 28px;
+    color: #FFD700; 
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Quote Text */
+.quote-text {
+    font-family: 'Russo One', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Quote Author */
+.quote-author {
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: #ffcc00;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Quote Category */
+.quote-category {
+    font-size: 18px;
+    color: #ffcc00; 
+    text-shadow: 2px 2px 5px #ffb400;
+    margin-bottom: 20px;
+}
+
+/* Error Message */
+.error-message {
+    font-size: 16px;
+    color: #FF4500; 
+    margin-bottom: 20px;
+}
+
+/* Button Styling (Gold Rings Style) */
+.quote-button {
+    background: radial-gradient(circle, #FFD700 30%, #FFA500 70%); 
+    color: #000080;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    padding: 12px 25px;
+    border: 3px solid yellow;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+/* Button Hover Effect */
+.quote-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px yellow;
+}
