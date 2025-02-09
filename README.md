@@ -1,8 +1,26 @@
-# React + Vite
+## ⚡Sonic Themed Website⚡
+Welcome to the Sonic-themed website! This React-powered project brings the excitement of Sonic's universe to life with interactive features and engaging content.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟Features
+- Home Page: An introduction to Sonic’s world.
+- Color Picker: Choose a character to change the background color.
+- Shop Page: Filterable product list featuring Sonic-themed items.
+- Tic-Tac-Toe Game: Play a classic game with a Sonic twist.
+- Quote Generator: Get inspired with randomly generated quotes.
+- Navigation Bar: Dynamic dropdown menu for easy site navigation.
 
-Currently, two official plugins are available:
+# 🛠️Technologies Used
+- React.js
+- React Router
+- CSS (with custom styling for a Sonic-themed experience)
+- Axios (for fetching quotes)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💨Getting Started
+1. Clone the repository.
+2. Install dependencies using `npm install.`
+3. Run the project with `npm start.`
+
+# 🕹️Credits
+Khalia Howard created with 💙 for Sonic fans!
+
+
